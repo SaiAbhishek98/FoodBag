@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="200.0" prefWidth="149.0" style="-fx-background-color: rgba(27,27,27,0.8);" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prototype1.BGTestController">
+   <children>
+      <Button fx:id="bat" layoutX="32.0" layoutY="38.0" mnemonicParsing="false" onAction="#Act" prefHeight="25.0" prefWidth="85.0" text="Button" AnchorPane.leftAnchor="32.0" AnchorPane.rightAnchor="32.0" />
+   </children>
+</AnchorPane>

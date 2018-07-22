@@ -1,0 +1,10 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.BG{
+    -fx-background-color: rgba(95, 95, 95, 0.5);
+}

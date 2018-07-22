@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anch" prefHeight="720.0" prefWidth="1380.0" style="-fx-background-color: #e6e6e6;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="prototype1.ConfirmController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="590.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="285.0" AnchorPane.leftAnchor="590.0" AnchorPane.rightAnchor="590.0" AnchorPane.topAnchor="285.0">
+         <image>
+            <Image url="@../Images/icons8-Ok-500.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lb" alignment="CENTER" layoutX="590.0" layoutY="449.0" prefHeight="65.0" prefWidth="150.0" text="Successful!" textFill="#00e600">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
